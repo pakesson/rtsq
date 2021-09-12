@@ -25,7 +25,7 @@ fn main() -> Result<(), std::io::Error> {
                 .short("l")
                 .long("language")
                 .value_name("LANGUAGE_NAME")
-                .possible_values(&["python"])
+                .possible_values(&["cpp", "csharp", "go", "java", "javascript", "python", "rust"])
                 .required(true)
                 .takes_value(true),
         )

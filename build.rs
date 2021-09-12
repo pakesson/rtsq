@@ -39,7 +39,11 @@ fn build_grammar(name: &str) {
 }
 
 fn main() {
+    build_grammar("tree-sitter-c-sharp");
     build_grammar("tree-sitter-cpp");
     build_grammar("tree-sitter-go");
+    build_grammar("tree-sitter-java");
+    build_grammar("tree-sitter-javascript");
     build_grammar("tree-sitter-python");
+    build_grammar("tree-sitter-rust");
 }
