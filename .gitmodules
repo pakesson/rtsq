@@ -1,0 +1,9 @@
+[submodule "grammars/tree-sitter-python"]
+	path = grammars/tree-sitter-python
+	url = https://github.com/tree-sitter/tree-sitter-python
+[submodule "grammars/tree-sitter-cpp"]
+	path = grammars/tree-sitter-cpp
+	url = https://github.com/tree-sitter/tree-sitter-cpp
+[submodule "grammars/tree-sitter-go"]
+	path = grammars/tree-sitter-go
+	url = https://github.com/tree-sitter/tree-sitter-go
